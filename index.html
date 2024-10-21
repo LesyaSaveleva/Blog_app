@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Приложение "БЛОГ"</h1>
+<div class="blog">
+    <div class="input">
+        <h2 class="title">Новый пост</h2>
+        <input class="js-title-input title-input"
+               type="text"
+               placeholder="Заголовок">
+
+        <input class="js-text-input text-input"
+               type="text"
+               placeholder="Напиши пост"
+        >
+        
+        <button disabled class="js-publicate_post-btn publicate_post-btn">
+            Опубликовать
+        </button>
+        <div class="js-input__error input__error input__error-hidden" >
+            Сообщение об ошибке
+        </div>
+    </div>
+
+    <div class="posts-section">
+        <h2 class="title">Лента</h2>
+        <div class="js-posts posts">
+            Пока нет ни одного поста..
+        </div>
+    </div>
+    
+</div>
+
+    
+
+
+
+    <script src="code.js"></script>
+</body>
+</html>
